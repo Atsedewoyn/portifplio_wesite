@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: rosybrown;
+}
+
+h1 {
+    text-align: center;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../photo/other/pexels-photo.jpg");
+    background-color: rgb(233, 243, 214);
+    background-size: 50;
+    background-position: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    background-color: black;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.logo {
+    color: rgb(222, 247, 164);
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: rgb(247, 228, 228);
+}
+
+nav ul li {
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: rosybrown;
+    transition: .60;
+}
+
+.btn {
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    border: 2px green solid;
+    font-weight: bolder;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: trasform .45;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translateY(-50%);
+}
+
+.content h1 {
+    color: lightcyan;
+    margin: 20px 0px 20px;
+    font-size: 70px;
+}
+
+.content h3 {
+    color: lightcyan;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.content h4 {
+    color: lightcyan;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.newslatter form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newslatter form input:first child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 13px 150px;
+    border: 2px solid rgb(221, 42, 42);
+    outline: none;
+    border-radius: 30px;
+}
+
+.newslatter form input:last child {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(228, 27, 27);
+    color: white;
+    box-shadow: 0px 0px 5px #0000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: lightgray;
+}
+
+.about img {
+    height: 400px;
+    width: 350px;
+    position: relative;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130Px;
+    max-width: 95%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 76px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.about-text p {
+    letter-spacing: 1px;
+    color: blueviolet;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid blueviolet;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 2px solid ridge;
+    cursor: pointer;
+}
+
+.service {
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    margin: 25px 0px;
+    color: reds;
+}
+
+.card h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card.button {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card.button:hover {
+    background-color: transparent;
+    border: 2px solid ridge;
+    cursor: pointer;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto;
+    /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button */
+
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+/* Close button on hover */
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* Add Zoom Animation */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}

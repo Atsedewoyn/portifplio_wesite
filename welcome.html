@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>welcome page</title>
+    <style>
+        body {
+            background-color: rgb(235, 238, 229);
+            background-image: url(../photo/other/globe.jpg);
+        }
+        
+        .h1 {
+            color: rgb(41, 6, 236);
+            font-size: 100px;
+            margin: 100px 0 0 100px;
+            font-family: sans-serif;
+        }
+        
+        .loginform {
+            margin: 200px 0 0 20px;
+            padding: 30px;
+            border: brown;
+            font-size: large;
+            font-family: sans-serif;
+        }
+        
+        .labl {
+            font-size: 30px;
+            color: rgb(104, 11, 26);
+        }
+        
+        .labl i {
+            font-size: 50px;
+            color: rgb(7, 2, 3);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: verdana;
+        }
+        
+        #abc {
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+        }
+        
+        nav {
+            width: 100%;
+            height: 50px;
+            background-color: #0005;
+            line-height: 50px;
+        }
+        
+        nav ul {
+            float: right;
+            margin-right: 30px;
+        }
+        
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            transition: 0.7s all;
+        }
+        
+        nav ul li:hover {
+            background-color: #088;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="abc">
+        <nav class="nav">
+
+            <ul>
+                <li><a class="active" href="Home.html">home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="Hero.html">Hero</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="services.html">Service</a></li>
+            </ul>
+
+        </nav>
+    </div>
+    <div class="h1">
+        welcome to my website
+    </div>
+    <div class="loginform">
+        <label class="labl">Have you registered bifore?<a href="Home.html" ><i> login</i></a></label> &nbsp &nbsp&nbsp
+        <br> <br> <br><label class="labl"> create account <a href="contact.html" ><i>register</i></a></label>
+    </div>
+</body>
+
+</html>

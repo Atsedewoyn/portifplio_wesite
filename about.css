@@ -1,0 +1,9 @@
+.posi {
+    margin: 20px;
+    padding: 0em;
+}
+
+.posi p {
+    float: left;
+    font-size: large;
+}

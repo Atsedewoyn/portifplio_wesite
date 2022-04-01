@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="homestyle.css">
+    <title>About Me</title>
+    <script>
+        // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="nav">
+
+        <ul>
+            <li><a class="active" href="Home.html">home</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a href="Hero.html">Hero</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="projects.html">projects</a></li>
+            <li><a href="services.html">Service</a></li>
+
+        </ul>
+
+    </nav>
+    <h1>These are my interesting photos!</h1>
+    <!-- Slide Show -->
+    <section class="photo">
+        <img class="mySlides" src="../photo/people/mine/chisabay.jpg" style="width:100%">
+        <img class="mySlides" src="../photo/people/mine/ethiopia.jpg" style="width:100%">
+        <img class="mySlides" src="../photo/people/mine/wel.jpg" style="width:100%">
+        <img class="mySlides" src="../photo/people/other/dv.jpg" style="width:100%">
+        <img class="mySlides" src="../photo/people/other/lady.jpg" style="width:100%">
+        <img class="mySlides" src="../photo/people/other/wali.jpg" style="width:100%">
+        <img class="mySlides" src="../photo/people/other/mati.jpg" style="width:100%">
+    </section>
+</body>
+
+</html>
